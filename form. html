@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php"></form>
+    <h1> <center> Facebook Login page</center></h1>
+    <h2> user name:<input type="text" name="user name" size="20" maxlength="30" placeholder="enter your name" /></h2>
+    <form action="http://www.example.com/login.php"></form>
+    <h2> number: <input type="number" name="enter number" size="20" maxlength="30"placeholder="enter your number"  /></h2>
+    <form action="http://www.example.com/login.php"></form>
+    <h2> Password: <input type="password" name="enter password" size="20" maxlength="30"placeholder="enter your password"  /></h2>
+    <form action="http://www.example.com/login.php"></form>
+    <h2> Radio:</h2>
+    <p> Please Select your Preferred Contact Methode: </p>
+  <input type="radio" name="contact method" value="Email cheack="cheacked"/>Email
+  <input type="radio" name="contact method" value="phone cheack="cheacked"/>phone
+  <input type="radio" name="contact method" value="Mail cheack="cheacked"/>Mail
+  <form action="http://www.example.com/login.php"></form>
+  <p> plsease select your country: <br/>
+    <input type="checkbox" name="country" value="India" cheacked ="cheacked"/>India
+    <input type="checkbox" name="country" value=" Pakistan "cheacked ="cheacked"/>Pakistan
+    <input type="checkbox" name="country" value="China"cheacked ="cheacked"/>China
+  </p>
+  </form>
+  <form action="http://www.example.com/login.php"></form>
+  <p> please select your city
+    <select name="city">
+    <option value="lahore">LAHORE</option>
+    <option value="islsmabad">ISLAMABAD</option>
+    <option value="multan">MULTAN</option>
+    <option value="karachi">KARACHI</option>
+    </select>
+  </p>
+  <form action="http://www.example.com/login.php"></form>
+  <P> uplod your work in browser
+    <label for=" user name"> user name :</label>
+<input type="text" name="user name" id="user name"><br/>
+<input type="submit"maxlength="5"><br/>
+<value="upload"
+  </P>
+</p>
+<form action="http://www.example.com/login.php"></form>
+<P> subscribe to our Email list:<br/>
+<input type="text" name="Email"/>
+<input type="submit" name="subscribe" value="subscribe"/>
+
+<form action="http://www.example.com/login.php"></form>
+<P> subscribe to our Email list:<br/>
+<input type="text" name="Email"/>
+<input type="submit" name="subscribe" value="subscribe"/>
+</p>
+
+<lable>AGE:<input type="text" name="age"/></lable><br/>
+Gender:
+<input type="radio" name="gender" value="f">
+<label for="Female">Female</lable>
+<input type="radio" name="gender" value="m">
+<lable for="Male">Male</lable>
+<fieldset>
+    <legend> Contact details </legend>
+    <label> Email <br/>
+        <input type="text" name=" Email" /></label> <br/>
+        <label> Mobile <br/>
+       <input type="text" name=" Mobile" /></label> <br/>
+       <label> telephone <br/>
+        <input type="text" name="telephone" /></label>
+</fieldset>
+<form action="http://www.example.com/login.php"></form>
+<label for="username">username:</lable>
+    <input type="text" name=" username" required="required"/></title><br/>
+    <label for="password">password: </label>
+<input type="password" name="Password" required="required"/>
+<input type="submit" value="submit"/>
+</form>
+
+<form action="http://www.example.com/login.php"></form>
+<label for="user name">date of birth</label>
+<input type="date" name=" birth" />
+<input type="submit" value="submit"/>
+</form>
+</body>
+</html>
